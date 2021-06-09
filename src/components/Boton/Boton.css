@@ -1,0 +1,20 @@
+
+.boton {
+    width: 5em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: darkred;
+    transition: 0.2s;
+    border-radius: 5em;
+    cursor: pointer;
+    box-shadow: 0.1em 0.1em 0.2em 0.1em grey;
+}
+
+.boton:hover{
+
+    background-color: red;
+    transition: 0.4s;
+}
